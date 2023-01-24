@@ -7,8 +7,10 @@
 body{
     display: flex;
     background-image: url(/imagens/fundopj.png);
-    position: absolute;
+    position:fixed;
 }
+
+/* começo do cabecalho*/
 .logo{
     margin: 5px;
     padding-left: 180px;
@@ -60,11 +62,85 @@ h2{
     margin-left: 50px;
 }
 
-/*carrosel*/
-h1 {
-    text-align: center;
-    margin: 1em 0;
-    font-family: sans-serif;
+.pagamentos img{
+    margin: auto;
+    display: flex;
+    display: inline-flex;
+}
+p{
+    margin: auto;
+    margin-left: 55px;
+    margin-top:-25px;
+    color: white;
+    font-family:monospace;
+    font-style: italic;
+    font-size: 15px;
+}
+.pagamentos ul li{
+    margin: auto;
+    padding: 15px;
+}
+.pixx{
+    padding: 8px;
+}
+.cartao p{
+    margin: 8px;
+}
+.marcas{
+    display: flex;
+    margin-left: 350px;
+    margin-top: -140px;
+}
+.marcas p {
+    margin: 8px;
+}
+
+/*fim do cabeçalho*/
+
+/* começo minha historia*/
+.historia{
+    display:flex;
+    flex-direction:column-reverse;
+    margin-left: 520px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 0fr);
+  }
+  .grid-item {
+    padding: 50px;
+  }
+  .text{
+    text-align:center;
+    font-size: 16px;
+  }
+  /*fim da minha historia*/
+h1{
+    margin: auto;
+    margin-left: 55px;
+    margin-top:-25px;
+    color: white;
+    font-family:monospace;
+    font-style: italic;
+    font-size: 15px;
+}
+
+carrosel
+.port{
+    display:flex;
+    flex-direction:column-reverse;
+    margin-left: 520px;
+}
+h1 .port{
+    margin: auto;
+    margin-left: 55px;
+    margin-top:-25px;
+    color: white;
+    font-family:monospace;
+    font-style: italic;
+    font-size: 15px;
+
   }
   
   .container {
@@ -132,7 +208,4 @@ h1 {
     -ms-overflow-style: none; 
     scrollbar-width: none; 
   }
-  
-  .cyan {
-    background: cyan;
-  }
+ 
