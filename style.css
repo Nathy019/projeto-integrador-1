@@ -13,7 +13,7 @@ body{
 /* começo do cabecalho*/
 .logo{
     margin: 5px;
-    padding-left: 180px;
+    padding-left: 270px;
 }
 a{
     text-decoration: none;
@@ -42,6 +42,7 @@ header{
 }
 .menu a{
         color: white;
+        margin-left: 45px;
         padding: 8px 12px;
         border-radius: 10px;
         transition: 200ms;
@@ -49,17 +50,17 @@ header{
 h2{
     margin: auto;
     color: white;
-    padding-left: 172px;
+    padding-left: 250px;
     font-family:monospace;
     font-style: italic;
     font-size: 25px;
 }   
 .redes-sociais ul li{
-    margin: auto;
     display: flex;
     display: inline-flex;
     padding: 30px;
-    margin-left: 50px;
+    margin-left: 72px;
+    margin: 100;
 }
 
 .pagamentos img{
@@ -94,6 +95,10 @@ p{
 .marcas p {
     margin: 8px;
 }
+iframe{
+  margin-left: 170px;
+  margin-top: 20px;
+}
 
 /*fim do cabeçalho*/
 
@@ -101,7 +106,7 @@ p{
 .historia{
     display:flex;
     flex-direction:column-reverse;
-    margin-left: 520px;
+    margin-left: 350px;
 }
 
 .grid-container {
@@ -110,10 +115,11 @@ p{
   }
   .grid-item {
     padding: 50px;
+    margin: auto;
   }
   .text{
     text-align:center;
-    font-size: 16px;
+    font-size: 25px;
   }
   /*fim da minha historia*/
 h1{
@@ -208,4 +214,5 @@ h1 .port{
     -ms-overflow-style: none; 
     scrollbar-width: none; 
   }
+ 
  
