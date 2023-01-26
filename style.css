@@ -106,12 +106,17 @@ iframe{
 .historia{
     display:flex;
     flex-direction:column-reverse;
-    margin-left: 350px;
+}
+.titulo{
+  text-align: center;
+  margin-right: 250px;
+  margin-top: 30px;
+  font-family: monospace;
 }
 
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(2, 0fr);
+    grid-template-columns: repeat(2, -1fr);
   }
   .grid-item {
     padding: 50px;
@@ -119,7 +124,7 @@ iframe{
   }
   .text{
     text-align:center;
-    font-size: 25px;
+    font-size: 30px;
   }
   /*fim da minha historia*/
 h1{
@@ -213,6 +218,44 @@ h1 .port{
   .gallery-wrapper {
     -ms-overflow-style: none; 
     scrollbar-width: none; 
+  }
+
+  /*fim do carrosel*/
+
+  /*começo de materiais*/
+  .materiais{
+    display:flex;
+    flex-direction:column-reverse;
+}
+.titulo2{
+  text-align: center;
+  margin-right: 250px;
+  margin-top: 30px;
+  font-family: monospace;
+}
+
+.grid-container2 {
+    display: grid;
+    grid-template-columns: repeat(2, -1fr);
+  }
+  .grid-item2 {
+    padding: 50px;
+    margin: auto;
+    list-style: circle;
+    color: white;
+  }
+  .text2{
+    text-align:justify;
+    font-size: 30px;
+    margin-left: 800px;
+    margin-top: -350px;
+    
+  }
+  .grid-item2 img{
+    margin-right: 200px;
+  }
+  .lista ul li{
+    list-style:disc;
   }
  
  
