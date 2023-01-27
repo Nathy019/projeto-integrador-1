@@ -157,9 +157,9 @@ h1 .port{
   .container {
     position: relative;
     padding: 15px;
-    max-width: 640px;
-    margin: 0 auto;
-  }
+    max-width: 1000
+      margin:250px
+}
   
   .gallery-wrapper {
     overflow-x: auto;
