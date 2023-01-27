@@ -157,8 +157,8 @@ h1 .port{
   .container {
     position: relative;
     padding: 15px;
-    max-width: 1000
-      margin:250px
+    max-width: 1000px;
+    margin:250px
 }
   
   .gallery-wrapper {
